@@ -148,4 +148,30 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--scroll-thumb-color-alt);
 }
+
+@media screen and (max-width: 340px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .section__title {
+    font-size: var(--big-font-size);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 </style>
