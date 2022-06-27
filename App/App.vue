@@ -1,6 +1,5 @@
 <template>
-  <header class="header"></header>
-  <main class="main"></main>
+
 </template>
 
 <script>
