@@ -20,7 +20,7 @@ export default {
 :root {
   --header-height: 3rem;
 
-  --hue-color: 206;
+  --hue-color: ;
 
   --first-color: hsl(var(--hue-color), %, %);
   --first-color-alt: hsl(var(--hue-color), %, %);
